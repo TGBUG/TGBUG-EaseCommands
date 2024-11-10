@@ -1,0 +1,16 @@
+name: TGBUG-EaseCommands
+version: '1.0'
+main: TGBUG.tgbug_EaseCommands.TGBUG_EaseCommands
+api-version: '1.16'
+load: STARTUP
+commands:
+  easecommands:
+    description: 插件主命令
+    usage: /ec [reload]
+    aliases: ec
+    permission: TGBUG-EaseCommands.commands
+    permission-message: "你无权使用此命令"
+    children:
+      reload:
+        description: 重新加载配置文件
+        usage: /ec reload

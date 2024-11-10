@@ -1,0 +1,12 @@
+#是否允许bStats收集数据，重启生效
+bStats: true
+#自定义命令
+commands:
+  - example:  # 没有子命令的命令
+      full_command: "say Hello, World!"
+  - hello:  # 有子命令的命令
+      subcommands:
+        - subcommand: "world"
+          full_command: "say Hello, World!"
+        - subcommand: "test"
+          full_command: "say Test successful!"
