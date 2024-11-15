@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TGBUG-Custom_Commands.iml" filepath="$PROJECT_DIR$/TGBUG-Custom_Commands.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TGBUG-EaseCommands.iml" filepath="$PROJECT_DIR$/TGBUG-EaseCommands.iml" />
     </modules>
   </component>
 </project>
